@@ -39,7 +39,7 @@ function ProductCategory(props) {
                 <Col md={9}>
                     <Row>
                         <div className='productCategory_navigation'>
-                            <Link to='/BookStore' className='productCategory_link'>Trang Chủ</Link> / 
+                            <Link to='/' className='productCategory_link'>Trang Chủ</Link> / 
                             <span className='productCategory_link'>{slug}</span> 
                         </div>
                     </Row>
