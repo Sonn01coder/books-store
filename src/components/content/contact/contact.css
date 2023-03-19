@@ -1,0 +1,69 @@
+.contact {
+    margin: 10px 0 0px;
+}
+
+.contact_title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.contact_wrap {
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.contact_wrap-item {
+    margin-bottom: 10px;
+}
+
+.contact_item {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.contact_item span {
+    color: red;
+    margin-left: 2px;
+}
+
+.contact_input,
+.contact_input-content {
+    margin:10px 20px 5px;
+}
+
+.contact_input input {
+    padding: 10px 15px;
+    border: 1px solid #6d6a6a;
+    width: 500px;
+}
+
+.contact_input-content input {
+    padding: 10px 15px 120px;
+    border: 1px solid #6d6a6a;
+    width: 500px;
+}
+
+.contact_button {
+    padding: 10px 20px;
+    margin-left: 35px;
+    margin-top: 10px;
+    background-color: #f26522;
+    color: aliceblue;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.contact_button:active {
+    opacity: 1;
+    background-color: #f65a11;
+}
+
+#errorContact {
+    color: red;
+    font-size: 14px;
+    padding-left: 40px;
+}

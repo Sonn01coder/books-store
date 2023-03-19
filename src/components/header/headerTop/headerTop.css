@@ -1,0 +1,143 @@
+.headerTop {
+    height: var(--height-headerTop);
+    background-color: rgb(14, 14, 15);
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.headerTop_wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.headerTop_mail {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.headerTop_user,
+.headerTop_login,
+.headerTop_register,
+.headerTop_support {
+    padding: 0 !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.headerTop_mail span,
+.headerTop_login span,
+.headerTop_register span,
+.headerTop_support span {
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.headerTop_login i {
+    margin-bottom: 4px;
+}
+
+.headerTop_mail:active,
+.headerTop_mail:active,
+.headerTop_login:active,
+.headerTop_register:active,
+.headerTop_support:active {
+    opacity: 1;
+}
+
+.color-White-headerTop {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.color-White-headerTop:hover {
+    color: #fff;
+}
+
+.headerTop_user {
+    justify-content: flex-end !important;
+    margin-right: 10px;
+}
+
+.headerTop_user span {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 8px;
+}
+
+
+/*---------- Responsive ----------- */
+
+@media  (min-width: 768px ) and (max-width: 992px){
+    .headerTop_login,
+    .headerTop_register {
+        display: flex;
+        justify-content: flex-end;
+    }
+}  
+
+@media  (min-width: 576px ) and (max-width: 768px){
+    .headerTop_container {
+        padding: 0;
+        max-width: 90% !important;
+        margin: auto;
+    }
+
+    .headerTop_container-row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .headerTop_mail {
+        padding-right: 0;
+        font-size: 16px;
+    }
+    
+    .headerTop_support,
+    .headerTop_login,
+    .headerTop_register {
+        font-size: 16px;
+    }
+
+}      
+
+@media  (max-width: 576px ) {
+    .headerTop_container {
+        padding: 0;
+        max-width: 90% !important;
+        margin: auto;
+    }
+
+    .headerTop_wrap-login {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .headerTop_mail {
+        display: none;
+    }
+    
+    .headerTop_login,
+    .headerTop_register {
+        font-size: 18px;
+    }
+
+    .headerTop_support {
+        display: none;
+    }
+
+    .headerTop_user {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,120 @@
+.searchProduct {
+    overflow-y: auto;
+}
+
+.searchProduct::-webkit-scrollbar {
+    width: 0;
+}
+
+.searchProduct_title  {
+    border-right: 3px solid #d06212;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #f1f1f1;
+    margin-bottom: 0;
+    padding: 20px 15px;  
+    
+}
+
+.searchProduct_list {
+    border-right: 3px solid #d06212;
+}
+
+.searchProduct_item {
+    background-color: #f1f1f1;
+    color: #800000 ;
+    font-size: 18px;
+    border: none;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    font-weight: 500;
+    padding: 18px 20px;
+    width: 100%;
+}
+
+.searchProduct_item:last-child {
+    border-bottom: none;
+}
+
+.searchProduct_item:hover {
+    cursor: pointer;
+    background-color: #ca7a55;
+    color: aliceblue;
+}
+
+.searchProduct_navigation {
+    margin: 15px 0 10px;
+}
+
+.searchProduct_link {
+    color: #454444;
+    margin: 0 8px;
+}
+
+.searchProduct_link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.product_wrap-container {
+    background-color: #f8f8f8;
+    padding: 20px 10px;
+}
+
+.searchProduct_book-lists {
+    margin-top: 15px;
+    max-height: 750px;
+}
+
+.searchProduct_book-lists::-webkit-scrollbar {
+    width: 4px;
+}
+
+.searchProduct_book-item {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color:#f5f5f5 ;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #d5cdcd;
+    border-radius: 3px;
+    max-height: 330px;
+    overflow: hidden;
+}
+
+.searchProduct_book-item img {
+    width: 80%;
+    height: 190px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.searchProduct_book-item p {
+    color: #333;
+    margin-top: 10px;
+    font-size: 14px;
+    max-height: 44px;
+    height: 44px;
+    max-width: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.searchProduct_book-item button {
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    background-color: #d06212;
+    color:aliceblue;
+    opacity: 0.9;
+}
+
+.searchProduct_book-item button:active {
+    opacity: 1;
+}
+
+.searchProduct_no-result {
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 600;
+}

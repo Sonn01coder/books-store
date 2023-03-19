@@ -1,0 +1,10 @@
+.rating {
+    color: #FF9529;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rating_numReview {
+    margin-left: 5px;
+}

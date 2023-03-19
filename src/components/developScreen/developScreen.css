@@ -1,0 +1,21 @@
+.developScreen {
+    margin: 30px auto;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.developScreen img {
+    height: 80%;
+    object-fit: contain;
+}
+
+.developScreen p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #524e4e;
+}
