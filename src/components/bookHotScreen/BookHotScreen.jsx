@@ -35,7 +35,7 @@ function BookHotScreen(props) {
                 <Col md={9}>
                     <Row>
                         <div className='searchProduct_navigation'>
-                            <Link to='/BookStore' className='searchProduct_link'>Trang Chủ</Link> / 
+                            <Link to='/' className='searchProduct_link'>Trang Chủ</Link> / 
                             <span className='searchProduct_link'>Sách hot</span> 
                         </div>
                     </Row>
