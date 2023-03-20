@@ -21,7 +21,7 @@ function HeaderNav(props) {
     if(search.length > 0) {
         navigate(`/search/${search}`)
     } else {
-        navigate('/BookStore')
+        navigate('/')
     }
 }
 
@@ -30,7 +30,7 @@ function HeaderNav(props) {
             <div className='headerNav'>
                 <Row className='headerNav_container' >
                     <Col lg={6} md={5} sm={4} className="logo" onClick={handleOnclickLogo}>
-                        <Link to="/BookStore">
+                        <Link to="/">
                             <img src="https://bizweb.dktcdn.net/100/047/782/themes/877502/assets/logo.png?1676015839422" alt="logo"/>
                         </Link>
                     </Col>
