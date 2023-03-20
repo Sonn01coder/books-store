@@ -9,7 +9,7 @@ function Success(props) {
             <Row>
                 <Col md={12} className="success">
                     <p>Bạn đã đặt hàng thành công</p>
-                    <Link to='/BookStore'>
+                    <Link to='/'>
                         <button>Tiếp tục mua hàng</button>
                     </Link>
                 </Col>
