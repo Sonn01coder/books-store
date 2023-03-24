@@ -35,7 +35,7 @@ function Login(props) {
                 setCheck(check+1)
             }, 1000)
             setTimeout(()=> {
-                navigate("/BookStore")
+                navigate("/")
             }, 4000)  
         }) 
         .catch(() => {
